@@ -29,4 +29,15 @@ app.UseAuthorization();
 // 4. Ключевой момент! Подключаем маршрутизацию для контроллеров
 app.MapControllers(); // <-- БЕЗ ЭТОГО SWAGGER НЕ УВИДИТ КОНТРОЛЛЕРЫ!
 
+var dbPath = "/data/potteryshop.db";
+if (!File.Exists(dbPath))
+{
+    var sourceDb = Path.Combine(AppContext.BaseDirectory, "Data", "potteryshop.db");
+    if (File.Exists(sourceDb))
+    {
+        Directory.CreateDirectory("/data");
+        File.Copy(sourceDb, dbPath);
+    }
+}
+
 app.Run();

@@ -267,10 +267,10 @@ D:\ДИПЛОМ\PotteryAPI\PotteryAPI\obj\Debug\net8.0\PotteryAPI.genruntimeconf
 D:\ДИПЛОМ\PotteryAPI\PotteryAPI\obj\Debug\net8.0\ref\PotteryAPI.dll
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\Data\potteryshop.db
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.staticwebassets.runtime.json
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.staticwebassets.endpoints.json
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.exe
-C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\Data\potteryshop.db
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.deps.json
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.runtimeconfig.json
 C:\Users\115\Desktop\PotteryAPI\PotteryAPI\bin\Debug\net8.0\PotteryAPI.dll
