@@ -1,13 +1,12 @@
-name: "potteryapi"
 meta:
   environment: csharp
   toolchain:
     name: dotnet
-    version: "8.0"
+    version: 8.0
 build:
   image: mcr.microsoft.com/dotnet/sdk:8.0
 run:
   image: mcr.microsoft.com/dotnet/sdk:8.0
   buildFileName: bin/Release/net8.0/PotteryAPI.dll
-  containerPort: 8080
   persistenceMount: /data
+  containerPort: 8080

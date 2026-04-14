@@ -14,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.Urls.Add("http://*:8080"); // <-- Добавьте эту строку
+
 // 3. Настраиваем конвейер middleware (порядок важен!)
 if (app.Environment.IsDevelopment())
 {
