@@ -5,10 +5,9 @@ meta:
     name: dotnet
     version: "8.0"
 build:
-  image: null
+  image: mcr.microsoft.com/dotnet/sdk:8.0
 run:
-  image: null
-  buildFileName: null
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  buildFileName: bin/Release/net8.0/PotteryAPI.dll
+  containerPort: 8080
   persistenceMount: /data
-  containerPort: "80"
-  servicePort: "80"
